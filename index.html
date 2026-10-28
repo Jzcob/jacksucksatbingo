@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="#090909" name="theme-color"/>
+  <title>
+   JackSucksAtBingo — Reddit Bingo
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <main class="shell">
+   <header class="top">
+    <span class="eyebrow">
+     THE UNOFFICIAL JSAL REDDIT BINGO
+    </span>
+    <span class="online">
+     <span class="dot">
+     </span>
+     READY TO PLAY
+    </span>
+   </header>
+   <section class="hero">
+    <div>
+     <p class="kicker">
+      WATCH. MARK. BINGO.
+     </p>
+     <h1>
+      JACKSUCKSAT
+      <span class="brand-break">
+       BINGO
+       <span class="period">
+        .
+       </span>
+      </span>
+     </h1>
+     <p class="intro">
+      Play along with Jack’s Reddit videos. Mark the moments you spot.
+     </p>
+    </div>
+    <div class="actions">
+     <button class="primary" id="new">
+      ↻   GENERATE NEW CARD
+     </button>
+     <button class="secondary" id="clear">
+      CLEAR MARKS
+     </button>
+    </div>
+   </section>
+   <section class="game">
+    <div class="gamehead">
+     <div>
+      <span class="sectionlabel">
+       REDDIT BINGO CARD
+      </span>
+      <h2>
+       Watch and mark.
+      </h2>
+     </div>
+     <div class="counter">
+      <strong id="count">
+       00
+      </strong>
+      <span>
+       / 25 SQUARES MARKED
+      </span>
+     </div>
+    </div>
+    <div class="board-wrap">
+     <div aria-hidden="true" class="letters">
+      <span>
+       B
+      </span>
+      <span>
+       I
+      </span>
+      <span>
+       N
+      </span>
+      <span>
+       G
+      </span>
+      <span>
+       O
+      </span>
+     </div>
+     <div aria-label="Bingo board" class="board" id="board">
+     </div>
+    </div>
+    <div class="bottom">
+     <span aria-live="polite" id="status" role="status">
+      Complete a row, column, or diagonal to highlight it.
+     </span>
+     <span>
+      HORIZONTAL · VERTICAL · DIAGONAL
+     </span>
+    </div>
+   </section>
+   <footer>
+    <a class="source-link" href="https://github.com/jzcob/jacksucksatbingo" target="_blank" rel="noopener noreferrer" aria-label="View source code on GitHub">VIEW SOURCE CODE ↗</a>
+    <span>
+     JACKSUCKSATBINGO · UNOFFICIAL FAN PROJECT
+    </span>
+    <span>
+     Not affiliated with or endorsed by JackSucksAtLife. · NO SAVED GAME DATA.
+    </span>
+   </footer>
+  </main>
+  <div aria-live="polite" class="toast" id="toast" role="status">
+  </div>
+  <script defer="" src="script.js">
+  </script>
+ </body>
+</html>
+
