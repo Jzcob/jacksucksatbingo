@@ -6,7 +6,7 @@
 
 Watch Jack's Reddit videos, spot familiar moments, and mark them off on your own randomized Bingo card! This is a free, fan-made project inspired by JackSucksAtLife and his community.
 
-> **Note:** This README was created with AI assistance. JackSucksAtBingo is an unofficial fan project and is not affiliated with or endorsed by JackSucksAtLife.
+> **Note:** This README and Site was created with AI assistance. JackSucksAtBingo is an unofficial fan project and is not affiliated with or endorsed by JackSucksAtLife.
 
 ## 🎮 How to play
 
